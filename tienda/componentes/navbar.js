@@ -18,7 +18,7 @@ let navElements = [
 ]
 
 export const navbarComponent = `
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(247, 98, 66);">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="${url}assets/corona.svg" alt="logo" with="80px" height="80px">
@@ -33,14 +33,14 @@ export const navbarComponent = `
                             if(e.title == 'Productos') {                                
                                 return `
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" style="color: rgb(255, 255, 255);" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a class="nav-link dropdown-toggle" style="color: whitesmoke;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Productos
                                         </a>
                                         <ul class="dropdown-menu" style="background-color: #C91B66;">                                        
                                         ${
                                             e.dropdown.map(i => { 
                                                 return `
-                                                <li><a class="dropdown-item" style="color: rgb(255, 255, 255);" href=${i.sublink}>${i.subtitle}</a></li>
+                                                <li><a class="dropdown-item" style="color: whitesmoke; background-color: transparent;" href=${i.sublink}>${i.subtitle}</a></li>
                                             `
                                             }).join('')
                                         }
@@ -50,14 +50,21 @@ export const navbarComponent = `
                             } else {
                                 return `
                                     <li class="nav-item">
-                                        <a class="nav-link active" style="color: rgb(255, 255, 255);" aria-current="page" href=${e.link}>${e.title}${e.svg}</a>
+                                        <a class="nav-link active" style="color: whitesmoke;" aria-current="page" href=${e.link}>${e.title}${e.svg}</a>
                                     </li>
                                 `
                             }
                         }).join('')
                     }                    
-                </ul>                
-            </div>
+                </ul>
+                <div class="btn" style="border: none;">
+                    <a href="${url}publico/carrito.html">
+                        <svg src="${url}assets/bag.svg" width="18" height="18" fill="whitesmoke" class="bi bi-bag" viewBox="0 0 16 16" style="transform: scale(1.5);">
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                        </svg>
+                    </a>
+                </div>            
+            </div>            
         </div>
     </nav>
 `
