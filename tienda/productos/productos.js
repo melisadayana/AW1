@@ -5,7 +5,7 @@ let cardContainer = document.getElementById('cardContainer')
 let cards = ''
     
 window.addEventListener('load', () => { 
-    fetch('./data.json')
+    fetch('http://127.0.0.1:5500/privado/data_products.json')
     .then((res) => res.json())
     .then((data) => {
         

@@ -1,31 +1,21 @@
-const username = document.getElementById('username')
-const password = document.getElementById('password')
-const confirmar = document.getElementById('confirmar')
+const form = document.getElementById('formulario')
 
-confirmar.addEventListener('click', (e) => {
+
+form.addEventListener('submit', (e) => {
     e.preventDefault()
-    const data = {
-        username: username.value,
-        password: password.value       
-    }
-    window.location.href = "./home.html"
-})
+    let username = document.getElementById('username').value
+    let password = document.getElementById('password').value
 
-const nombre = document.getElementById('txtNombre')
-const apellido = document.getElementById('txtApellido')
-const email = document.getElementById('txtEmail')
-const fecha = document.getElementById('date')
-const pass = document.getElementById('txtPass')
-const aceptar = document.getElementById('confirmar')
-
-aceptar.addEventListener('click', (e) => {
-    e.preventDefault()
-    const data = {
-        nombre: nombre.value,
-        apellido: apellido.value,
-        email: email.value,
-        fecha: fecha.value,
-        pass: pass.value
-    }
-    window.location.href = "./login.html"
+    fetch('http://127.0.0.1:5500/privado/data_users.json')
+    .then(res => res.json()) 
+    .then(users => {
+        const user = users.find(e => e.usuario === username && e.pass === password)
+        
+        if(user) {
+            sessionStorage.setItem('userData', JSON.stringify(user))
+            window.location.href = "http://127.0.0.1:5500/publico/home.html"
+        } else {
+            document.getElementById('lblError').textContent = "Error en los datos ingresados."
+        }
+    })
 })

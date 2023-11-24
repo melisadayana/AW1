@@ -1,0 +1,10 @@
+[
+    {
+        "nombre": "Meli",
+        "apellido": "Contreras",
+        "usuario": "prueba",
+        "pass": "prueba",
+        "email": "prueba@gmail.com",
+        "foto": "http://127.0.0.1:5500/assets/meli.jpg"
+    }
+]

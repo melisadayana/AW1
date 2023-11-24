@@ -1,0 +1,221 @@
+[
+    {
+        "categoria": "bikini",
+        "destacado": "1",
+        "productos": [
+            {
+                "id": "1",
+                "title": "Bikini Savage",
+                "desc": "Triángulo para atar y colaless - Lycra premium y ambas piezas forradas",
+                "price": "$9.200",
+                "size": "Disponible talles M/L/XL",
+                "img": "http://127.0.0.1:5500/productos/imagenes/savage.jpeg",
+                "link": "http://127.0.0.1:5500/productos/bikinis.html"
+            },
+            {
+                "id": "2",
+                "title": "Bikini Maca Aquarela",
+                "desc": "Triángulo para atar y colaless",
+                "price": "$9.200",
+                "size": "Disponible talles L/XL",
+                "img": "http://127.0.0.1:5500/productos/imagenes/maca.jpeg",
+                "link": "http://127.0.0.1:5500/productos/bikinis.html"
+            },
+            {
+                "id": "3",
+                "title": "Bikini Psicodélico",
+                "desc": "Top para atar y colaless",
+                "price": "$9.200",
+                "size": "Disponible talles XL/4",
+                "img": "http://127.0.0.1:5500/productos/imagenes/savage.jpeg",
+                "link": "http://127.0.0.1:5500/productos/bikinis.html"
+            },
+            {
+                "id": "4",
+                "title": "Bikini Flores",
+                "desc": "Triángulo y colaless",
+                "price": "$9.200",
+                "size": "Consultar por talles disponibles",
+                "img": "http://127.0.0.1:5500/productos/imagenes/maca.jpeg",
+                "link": "http://127.0.0.1:5500/productos/bikinis.html"
+            },
+            {
+                "id": "5",
+                "title": "Bikini Print",
+                "desc": "Triángulo y colaless",
+                "price": "$9.200",
+                "size": "Disponible talles S/M/L",
+                "img": "http://127.0.0.1:5500/productos/imagenes/savage.jpeg",
+                "link": "http://127.0.0.1:5500/productos/bikinis.html"
+            },
+            {
+                "id": "6",
+                "title": "Bikini Love",
+                "desc": "Triángulo y colaless",
+                "price": "$9.200",
+                "size": "Disponible talles S/M/L/XL",
+                "img": "http://127.0.0.1:5500/productos/imagenes/maca.jpeg",
+                "link": "http://127.0.0.1:5500/productos/bikinis.html"
+            }
+        ]
+    },
+    {
+        "categoria": "calza",
+        "destacado": "3",
+        "productos": [
+            {
+                "id": "1",
+                "title": "Calza Cala",
+                "desc": "Supplex con detalle calado",
+                "price": "$10.500",
+                "size": "Disponible talles 1-2-3-4",
+                "img": "http://127.0.0.1:5500/productos/imagenes/maca.png",
+                "link": "http://127.0.0.1:5500/productos/calzas.html"
+            },
+            {
+                "id": "2",
+                "title": "Ciclista Azul Aero",
+                "desc": "Poliéster y Lycra",
+                "price": "$10.730",
+                "size": "Disponible talles 1-2-3-4",
+                "img": "http://127.0.0.1:5500/productos/imagenes/aero.png",
+                "link": "http://127.0.0.1:5500/productos/calzas.html"
+            },
+            {
+                "id": "3",
+                "title": "Ciclista Oliva",
+                "desc": "Poliéster y Lycra",
+                "price": "$10.200",
+                "size": "Disponible talles 2-3-4",
+                "img": "http://127.0.0.1:5500/productos/imagenes/maca.png",
+                "link": "http://127.0.0.1:5500/productos/calzas.html"
+            },
+            {
+                "id": "4",
+                "title": "Biker Kate Coral",
+                "desc": "Supplex con bolsillos laterales",
+                "price": "$10.700",
+                "size": "Disponible talles 1-2-3-4",
+                "img": "http://127.0.0.1:5500/productos/imagenes/aero.png",
+                "link": "http://127.0.0.1:5500/productos/calzas.html"
+            },
+            {
+                "id": "5",
+                "title": "Calza Roma",
+                "desc": "Con bolsillos laterales",
+                "price": "$12.600",
+                "size": "Disponible talles 1-2-3",
+                "img": "http://127.0.0.1:5500/productos/imagenes/maca.png",
+                "link": "http://127.0.0.1:5500/productos/calzas.html"
+            },
+            {
+                "id": "6",
+                "title": "Chupín Térmico",
+                "desc": "Con friza por dentro",
+                "price": "$9.300",
+                "size": "Disponible talles 1-2-3-4-5",
+                "img": "http://127.0.0.1:5500/productos/imagenes/aero.png",
+                "link": "http://127.0.0.1:5500/productos/calzas.html"
+            },
+            {
+                "id": "7",
+                "title": "Calza Recta",
+                "desc": "Con bolsillos, micro frizada",
+                "price": "$12.800",
+                "size": "Disponible talles 1-2-3-4-5-6",
+                "img": "http://127.0.0.1:5500/productos/imagenes/maca.png",
+                "link": "http://127.0.0.1:5500/productos/calzas.html"
+            }
+        ]
+    },    
+    {
+        "categoria": "campera",
+        "destacado": "2",
+        "productos": [
+            {
+                "id": "1",
+                "title": "Campera Print Negra",
+                "desc": "Gofrado print negro micro frizada",
+                "price": "$25.000",
+                "size": "Disponible talles 1-2-3-4-5-6",
+                "img": "http://127.0.0.1:5500/productos/imagenes/marshal.png",
+                "link": "http://127.0.0.1:5500/productos/camperas.html"
+            },
+            {
+                "id": "2",
+                "title": "Campera Marshall",
+                "desc": "Campera de microfibra con lycra frizada con hojal suave y fría al tacto, calce fit capacidad compresora, elastiza",
+                "price": "$28.280",
+                "size": "Disponible talles 1-2-3-4-5-6",
+                "img": "http://127.0.0.1:5500/productos/imagenes/marshal.png",
+                "link": "http://127.0.0.1:5500/productos/camperas.html"
+            },
+            {
+                "id": "3",
+                "title": "Buzo Polar Soft",
+                "desc": "Polar soft con cuello y bolsillos",
+                "price": "$18.000",
+                "size": "Disponible talles 1-2-3-4",
+                "img": "http://127.0.0.1:5500/productos/imagenes/polar.jpg",
+                "link": "http://127.0.0.1:5500/productos/camperas.html"
+            }
+        ]
+    },    
+    {
+        "categoria": "remera",
+        "destacado": "2",
+        "productos": [
+            {
+                "id": "1",
+                "title": "Remera Escote V",
+                "desc": "Color crudo algodón primera calidad",
+                "price": "$8.200",
+                "size": "Disponible talles 1-2-3-4",
+                "img": "http://127.0.0.1:5500/productos/imagenes/escotev.png",
+                "link": "http://127.0.0.1:5500/productos/remeras.html"
+            },
+            {
+                "id": "2",
+                "title": "Sudadera Dry Fit",
+                "desc": "Dry-fit poliéster y microfibra",
+                "price": "$7.800",
+                "size": "Disponible talles 1-2-3-4",
+                "img": "http://127.0.0.1:5500/productos/imagenes/dry.png",
+                "link": "http://127.0.0.1:5500/productos/remeras.html"
+            }
+        ]
+    },    
+    {
+        "categoria": "top",
+        "destacado": "3",
+        "productos": [
+            {
+                "id": "1",
+                "title": "Top Fitness",
+                "desc": "Suplex, colores blanco y negro",
+                "price": "$8.900",
+                "size": "Disponible talles 1-2-3-4-5",
+                "img": "http://127.0.0.1:5500/productos/imagenes/fitnes.png",
+                "link": "http://127.0.0.1:5500/productos/tops.html"
+            },
+            {
+                "id": "2",
+                "title": "Top Cruzado",
+                "desc": "Supplex con espalda cruzada",
+                "price": "$8.600",
+                "size": "Disponible talles 1-2-3-4",
+                "img": "http://127.0.0.1:5500/productos/imagenes/cruzado.png",
+                "link": "http://127.0.0.1:5500/productos/tops.html"
+            },
+            {
+                "id": "3",
+                "title": "Top Cala Aero",
+                "desc": "Supplex con detalle calado",
+                "price": "$11.000",
+                "size": "Disponible talles 1-2-3-4",
+                "img": "http://127.0.0.1:5500/productos/imagenes/topaero.png",
+                "link": "http://127.0.0.1:5500/productos/tops.html"
+            }
+        ]
+    }
+]

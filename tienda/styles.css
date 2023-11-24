@@ -2,5 +2,31 @@
     background-color: rgb(247, 98, 66);
 }
 
+.head-primary .badge {
+    color: rgb(247, 98, 66);
+    background: whitesmoke;
+}
 
+.head-dark .badge, .head-primary .badge {
+    color: whitesmoke;
+    background: rgb(247, 98, 66);
+}
+
+.badge-amount {
+    right: 15px;
+}
+
+.badge-amount {
+    padding: 2px 5px;
+}
+.badge {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 13px;
+    border-radius: 20px;
+}
 
