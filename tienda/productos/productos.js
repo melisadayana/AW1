@@ -15,7 +15,7 @@ let mensaje = '&text=Hola%20Mica,%20te%20paso%20mi%20pedido'
 let btnDeleteItem = ''
 
 if (pageName != 'Carrito') {
-    window.addEventListener('load', () => {     
+    window.addEventListener('load', () => {
 
         fetch('http://127.0.0.1:5500/privado/data_products.json')
         .then((res) => res.json())
@@ -124,7 +124,7 @@ if (pageName != 'Carrito') {
         mensaje += `%0ATotal%20$%20${total.toLocaleString('es-AR')}%0AGracias!`;
 
         // Nuevo contenido que deseas agregar
-        let nuevoContenido = `<a href="https://api.whatsapp.com/send?phone=543517656710${mensaje}" class="btn btn-primary w-100 mt-4" id="btnEnviar">Enviar pedido</a>`
+        let nuevoContenido = `<a href="https://api.whatsapp.com/send?phone=543517656710${mensaje}" class="btn btn-primary text-white" style="background-color: rgb(247, 98, 66); width: 100%; padding: 8px;" id="btnEnviar">Enviar pedido</a>`
         //let nuevoContenido = `<a href="https://127.0.0.1:5500/productos/api.ultramsg.js" class="btn btn-primary w-100 mt-4" id="btnEnviar">Enviar pedido</a>`
         // Crear un nuevo elemento div
         let nuevoElemento = document.createElement('a')
@@ -176,8 +176,6 @@ if (pageName != 'Carrito') {
                     setProductData('itemsData', producto)
                 }
             });
-
-
             location.reload(true)
         }
 
